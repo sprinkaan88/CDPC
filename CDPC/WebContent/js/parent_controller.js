@@ -1,4 +1,4 @@
-angular.module('cdpc.controllers').controller('ParentController', function($scope, $location, $routeParams, $route){
+angular.module('cdpc').controller('ParentController', function($scope, $location, $routeParams, $route){
 
 	
 	$scope.$route = $route;

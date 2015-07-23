@@ -1,5 +1,5 @@
-angular.module('cdpc',['cdpc.controllers', 'ngRoute']);
-angular.module('cdpc.controllers',[]);
+angular.module('cdpc',['ngRoute']);
+
 
 angular.module('cdpc').config(['$routeProvider', '$locationProvider',
   function($routeProvider, $locationProvider) {
@@ -24,6 +24,10 @@ angular.module('cdpc').config(['$routeProvider', '$locationProvider',
         templateUrl: 'partials/gallery.html',
         controller: 'NavController'
       }).
+	  when('/scoring', {
+	        templateUrl: 'partials/stageCard.html',
+	        controller: 'NavController'
+	      }).
       otherwise({
         redirectTo: '/home'
       });

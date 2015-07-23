@@ -1,4 +1,4 @@
-angular.module('cdpc.controllers').controller('NavController', function($rootScope, $scope, $location, $route, $routeParams){
+angular.module('cdpc').controller('NavController', function($rootScope, $scope, $location, $route, $routeParams){
 //console.log("Nav Controller");
 	$scope.name = "NavController";
     $scope.params = $routeParams;

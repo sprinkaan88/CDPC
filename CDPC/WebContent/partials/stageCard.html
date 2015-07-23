@@ -1,0 +1,41 @@
+<div class="stage" ng-app="cdpc" ng-controller="ScoreCardController">
+	<div id="scoreSheet" class="sheet">
+		<div class="headings">
+			<h2>Stage 1</h2>
+			<p>Competitor Name</p>
+		</div>
+
+
+		<div class="targets scoring">
+			<div class="colHeader column">Targets</div>
+			<div class="target column" ng-style="columnStyle"
+				ng-repeat="target in getNumber(options.totalCol) track by $index" score-column="targets" index="{{$index}}">
+			</div>
+		</div>
+
+		<div class="pointsDown scoring">
+			<div class="colHeader column">Points Down</div>
+			<div class="column" ng-style="columnStyle"
+				ng-repeat="target in getNumber(options.totalCol) track by $index">
+			</div>
+		</div>
+
+
+		<div class="string scoring">
+			<div class="colHeader column">String</div>
+			<div class="column" ng-style="columnStyle"
+				ng-repeat="target in getNumber(options.totalCol) track by $index">
+			</div>
+		</div>
+
+
+		<div class="time scoring">
+			<div class="colHeader column">Time</div>
+			<div class="column" ng-style="columnStyle"
+				ng-repeat="target in getNumber(options.totalCol) track by $index">
+			</div>
+		</div>
+
+
+	</div>
+</div>
