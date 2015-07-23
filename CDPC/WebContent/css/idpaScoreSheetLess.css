@@ -1,0 +1,47 @@
+.stage{
+
+		
+	.sheet {
+		border: 1px solid grey;
+		width: 700px;
+		height: 800px;
+		border-radius: 10px;
+		padding: 5px 0px 0px 0px;
+	}
+	
+	.headings {		
+		h2{
+			margin: 0;
+		}		
+		text-align: center;
+		height: 10%;
+	}
+	
+	
+	.scoring{		
+		border: 1px solid grey;
+		height: 90%;
+		float: left;
+		border-left: 0;
+		border-bottom: 0;
+	}
+	
+	.targets {
+		width: 30%;
+	}
+	
+	.pointsDown{
+		width: 20%;
+	}
+	
+	.string{
+		width: 30%;
+	}
+	
+	.time{
+		width: 20%;
+		border-right: 0;
+	}		
+	
+	
+}
