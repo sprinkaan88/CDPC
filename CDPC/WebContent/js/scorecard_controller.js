@@ -6,20 +6,25 @@ angular.module('cdpc').controller('ScoreCardController', function($scope) {
 	var scoresheetHeight = angular.element("#scoreSheet").height() * 0.9;
 	$scope.lineHeight = (scoresheetHeight - (scoresheetHeight * 0.04)) / 16;
 
-	$scope.columnStyle = {
+	var scoresheetWidth = angular.element("#scoreSheetHeadings").width();
+	var marginOffset = (scoresheetWidth / 2) - (scoresheetWidth * 0.3) / 2;
+	$scope.headingsStyle = {"margin-left" : marginOffset+"px"};
+	
+
+$scope.columnStyle = {
 		"line-height" : $scope.lineHeight + "px"
 	};
 
 	$scope.options = {
 		"targets" : {
-			"max" : 9,
-			"prefix" : "T",
-			"amount" : 16
+			"max" : 10, //Static field, not to change
+			"prefix" : "T", //Static field, not to change
+			"numberOf" : 10
 		},
 		"strings" : {
 			"max" : 6,
 			"prefix" : "String ",
-			"amount" : 1
+			"numberOf" : 3
 		},
 		"totalCol" : 16
 	};
