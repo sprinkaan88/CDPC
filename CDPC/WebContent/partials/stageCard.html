@@ -1,54 +1,77 @@
 <div class="stage" ng-app="cdpc" ng-controller="ScoreCardController">
-	<div id="scoreSheet" class="sheet">
-		<div id="scoreSheetHeadings" class="headings">
-			<div ng-style="headingsStyle">
-				<h2>Stage 1</h2>
-				<p>
-					<b>Francois Bester</b>
-				</p>
+		<div id="scoreSheet" class="sheet">
+			<div id="scoreSheetHeadings" class="headings">
+				<div ng-style="headingsStyle">
+					<h2>Stage 1</h2>
+					<p>
+						<b>Francois Bester</b>
+					</p>
+				</div>
+				<div>
+					<strong>SADPA Number : 2271<br>Division : SSP<br>Classification
+						: SS
+					</strong>
+				</div>
 			</div>
-			<div><strong>SADPA Number : 2271<br>Division : SSP<br>Classification : SS</strong></div>
+
+
+			<div class="targets scoring">
+				<div class="colHeader column">
+					<b>Target</b>
+				</div>
+				<div class="target column" ng-style="columnStyle"
+					ng-repeat="target in getNumber(options.totalCol) track by $index"
+					score-column="targets" index="{{$index}}"></div>
+			</div>
+
+			<div class="pointsDown scoring">
+				<div class="colHeader column">
+					<b>Points Down</b>
+				</div>
+				<div class="column" ng-style="columnStyle"
+					ng-repeat="target in getNumber(options.totalCol) track by $index">
+					<input id="target{{$index+1}}" ng-model="targetsinput"
+						ng-init="score.targets" ng-change="scoringChanged($index + 1)"
+						onkeypress='return event.charCode >= 48 && event.charCode <= 57'
+						maxlength="2" type="text"
+						ng-if="$index < options.targets.numberOf || $index > 11" /> <label
+						id="scoreLabel{{$index+1}}" ng-if="$index == 11">{{getScoreLabelValue($index+1)}}</label>
+				</div>
+			</div>
+
+
+			<div class="string scoring">
+				<div class="colHeader column">
+					<b>String</b>
+				</div>
+				<div class="column" ng-style="columnStyle"
+					ng-repeat="target in getNumber(options.totalCol) track by $index"
+					score-column="strings" index="{{$index}}"></div>
+			</div>
+
+
+			<div class="time scoring">
+				<div class="colHeader column">
+					<b>Time</b>
+				</div>
+				<div class="column" ng-style="columnStyle"
+					ng-repeat="target in getNumber(options.totalCol) track by $index">
+					<input id="string{{$index+1}}" ng-model="stringsinput"
+						ng-init="score.targets" ng-change="timeChanged()"
+						onkeypress='return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 46'
+						type="text" ng-if="$index < options.strings.numberOf" /> <label
+						id="secondsLabel{{$index+1}}" ng-if="$index > 9">{{getSecondsLabelValue($index+1)}}</label>
+				</div>
+			</div>
+
+			<br style="clear: left;" />
+			<div class="stageScore">
+				<div>
+					<label>Stage Score</label>
+				</div>
+				<div>
+					<label>{{scoring.stageScore}} sec</label>
+				</div>
+			</div>
 		</div>
-
-
-		<div class="targets scoring">
-			<div class="colHeader column">
-				<b>Targets</b>
-			</div>
-			<div class="target column" ng-style="columnStyle"
-				ng-repeat="target in getNumber(options.totalCol) track by $index"
-				score-column="targets" index="{{$index}}"></div>
-		</div>
-
-		<div class="pointsDown scoring">
-			<div class="colHeader column">
-				<b>Points Down</b>
-			</div>
-			<div class="column" ng-style="columnStyle"
-				ng-repeat="target in getNumber(options.totalCol) track by $index">
-			</div>
-		</div>
-
-
-		<div class="string scoring">
-			<div class="colHeader column">
-				<b>String<b></b>
-			</div>
-			<div class="column" ng-style="columnStyle"
-				ng-repeat="target in getNumber(options.totalCol) track by $index"
-				score-column="strings" index="{{$index}}"></div>
-		</div>
-
-
-		<div class="time scoring">
-			<div class="colHeader column">
-				<b>Time</b>
-			</div>
-			<div class="column" ng-style="columnStyle"
-				ng-repeat="target in getNumber(options.totalCol) track by $index">
-			</div>
-		</div>
-
-
-	</div>
 </div>

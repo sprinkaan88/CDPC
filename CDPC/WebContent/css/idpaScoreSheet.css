@@ -1,3 +1,4 @@
+
 .stage .sheet {
 	border: 1px solid grey;
 	width: 700px;
@@ -70,4 +71,46 @@
 	text-align: center;
 	height: 4%;
 	background-color: lightblue;
+	font-size: 13pt;
+}
+
+.stage .column input {
+	border: 0;
+	font-size: 15pt;
+	text-align: center;
+	outline: none;
+	cursor: pointer;
+}
+
+.stage .pointsDown .column  input {
+	width: 30%;
+}
+
+.stage .time .column  input {
+	width: 80%;
+}
+
+.stage .column label {
+	font-size: 15pt;
+	text-align: center;
+}
+
+.stage .stageScore{
+	  margin-top: 5px;
+}
+
+.stage .stageScore div:first-child {
+	float: left;
+	width: 80%;
+	text-align: center;
+}
+
+.stage .stageScore div:last-child {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+
+.stage .stageScore label{
+	font-size: 15pt;
 }

@@ -57,6 +57,8 @@ angular.module('cdpc').directive('scoreColumn', function() {
 		}
 
 	}
+	
+	
 
 	return {
 		restrict : 'A',
