@@ -28,6 +28,10 @@ angular.module('cdpc').config(['$routeProvider', '$locationProvider',
 	        templateUrl: 'partials/stageCard.html',
 	        controller: 'NavController'
 	      }).
+	  when('/match', {
+	        templateUrl: 'partials/matchView.html',
+	        controller: 'NavController'
+	      }).
       otherwise({
         redirectTo: '/home'
       });
