@@ -1,10 +1,20 @@
 .match {
-	
+	margin-top: 103px;
+}
+
+.match .blockerDiv {
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	z-index: 1028;
 }
 
 .match .heading h2 {
 	text-align: center;
 	margin-bottom: 20px;
+	margin-top: 0;
 }
 
 .match .heading label {
@@ -12,16 +22,17 @@
 }
 
 .match .heading {
+	width: 100%;
 	border: 1px solid grey;
 	border-radius: 10px;
-	padding: 110px 5px 5px 10px;
+	padding: 10px 5px 10px 10px;
 	top: 70px;
 	position: fixed;
-	width: 100%;
-	right: 0;
-	left: 0;
 	z-index: 1029;
-	height: 131px
+	height: auto;
+	text-align: center;
+	background-color: lavender;
+	border: 1px solid grey;
 }
 
 .match .matchTable {
@@ -30,6 +41,7 @@
 	padding: 5px 0px 0px 0px;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 .match .matchTable .row {
@@ -38,6 +50,7 @@
 
 .match .heading label:nth-of-type(1) {
 	width: 30%;
+	text-align: left;
 }
 
 .match .heading label:nth-of-type(2) {
@@ -54,6 +67,7 @@
 
 .match .matchTable .row label:nth-of-type(1) {
 	width: 30%;
+	text-align: left;
 }
 
 .match .matchTable .row label:nth-of-type(2) {
@@ -66,4 +80,30 @@
 
 .match .matchTable .row label:nth-of-type(4) {
 	width: 30%;
+}
+
+
+@media  screen and ( min-width : 768px) {
+	.match {
+		margin-top: 120px;
+	}
+	.match .heading {
+		width: 730px;
+		top: 90px;
+	}
+}
+
+
+@media  screen and ( min-width : 992px) {
+	.match .heading {
+		width: 940px;
+	}
+}
+
+
+
+@media screen and ( min-width : 1200px) {
+	.match .heading {
+		width: 1140px;
+	}
 }
