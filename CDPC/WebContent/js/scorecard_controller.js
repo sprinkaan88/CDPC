@@ -8,6 +8,7 @@ angular.module('cdpc').controller('ScoreCardController', 	function($scope) {
 			var scoresheetHeight = angular.element("#scoreSheet").height() * 0.9;
 			$scope.lineHeight = (scoresheetHeight - (scoresheetHeight * 0.04)) / 16;
 
+			$scope.normalMode = true;
 			var scoresheetWidth = angular.element("#scoreSheetHeadings").width();
 			var marginOffset = (scoresheetWidth / 2) - (scoresheetWidth * 0.3) / 2;
 			$scope.headingsStyle = {
@@ -63,6 +64,7 @@ angular.module('cdpc').controller('ScoreCardController', 	function($scope) {
 						var pointsDown = parseInt(angular.element("#target" + i)[0].value);
 						if (!isNaN(pointsDown))
 							$scope.scoring.totalPointsDown += pointsDown;
+						if(! $scope.normalMode) break;
 					}
 
 					$scope.scoring.scoreLabel12 = $scope.scoring.totalPointsDown;

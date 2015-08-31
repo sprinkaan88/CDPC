@@ -82,9 +82,19 @@ angular.module('cdpc').directive('scoreColumn', function() {
 			var numberToRender = options[option].numberOf;
 			var columnName = options[option].prefix;
 
-			if (index <= numberToRender) {
+			if(option == 'targets'){
+				if(index <= numberToRender && scope.normalMode) {
+					scope.columnName = columnName + index;
+				}else if (index == 1 && !scope.normalMode){
+					scope.columnName = "All targets";
+				}else{
+					scope.columnName = "";
+				}
+			}else if(index <= numberToRender) {
 				scope.columnName = columnName + index;
 			}
+			
+			
 
 		},
 		template : "<b>{{columnName}}</b>"
