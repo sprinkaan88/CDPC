@@ -1,6 +1,5 @@
-angular.module('cdpc').controller(
-		'ScoreCardController',
-		function($scope) {
+angular.module('cdpc').controller('ScoreCardController', 	function($scope) {
+	
 			$scope.name = "ScoreCardController";
 
 			// These values are based on the scoresheet table height of 90% and
@@ -9,6 +8,7 @@ angular.module('cdpc').controller(
 			var scoresheetHeight = angular.element("#scoreSheet").height() * 0.9;
 			$scope.lineHeight = (scoresheetHeight - (scoresheetHeight * 0.04)) / 16;
 
+			$scope.normalMode = true;
 			var scoresheetWidth = angular.element("#scoreSheetHeadings").width();
 			var marginOffset = (scoresheetWidth / 2) - (scoresheetWidth * 0.3) / 2;
 			$scope.headingsStyle = {
@@ -64,6 +64,7 @@ angular.module('cdpc').controller(
 						var pointsDown = parseInt(angular.element("#target" + i)[0].value);
 						if (!isNaN(pointsDown))
 							$scope.scoring.totalPointsDown += pointsDown;
+						if(! $scope.normalMode) break;
 					}
 
 					$scope.scoring.scoreLabel12 = $scope.scoring.totalPointsDown;
@@ -113,9 +114,8 @@ angular.module('cdpc').controller(
 			}
 
 			function doStageTotal() {
-				$scope.scoring.stageScore = $scope.scoring.secondsLabel11 + $scope.scoring.secondsLabel12
-						+ $scope.scoring.secondsLabel13 + $scope.scoring.secondsLabel14 + $scope.scoring.secondsLabel15
-						+ $scope.scoring.secondsLabel16;
+				$scope.scoring.stageScore = $scope.scoring.secondsLabel11 + $scope.scoring.secondsLabel12 + $scope.scoring.secondsLabel13
+						+ $scope.scoring.secondsLabel14 + $scope.scoring.secondsLabel15 + $scope.scoring.secondsLabel16;
 			}
 
 			$scope.getScoreLabelValue = function(index) {

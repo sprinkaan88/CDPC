@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+	<session-factory>
+		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+		<property name="show_sql">false</property>
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306</property>
+		<property name="hibernate.default_schema">test</property>
+		<property name="connection.username">cdpc</property>
+		<property name="connection.password">shooting</property>
+		<mapping class="za.co.cdpc.persistence.Shooter" />
+		<mapping class="za.co.cdpc.persistence.Match" />
+		<mapping class="za.co.cdpc.persistence.StageScore" />
+		<mapping class="za.co.cdpc.persistence.MatchScore" />
+	</session-factory>
+
+
+</hibernate-configuration>

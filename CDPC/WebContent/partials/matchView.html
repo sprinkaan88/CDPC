@@ -1,0 +1,17 @@
+<div class="match" ng-app="cdpc" ng-controller="MatchController">
+
+	<div class="blockerDiv"></div>
+	<div class="heading">
+		<h2>CDPC August Clubshoot</h2>
+		<label ng-click="sortBy('sadpa_no')">SADPA no</label><label ng-click="sortBy('name')">Name</label> <label ng-click="sortBy('division')">Division</label> <label ng-click="sortBy('class')">Classification</label><label ng-click="sortBy('pd')">Total
+			PD</label> <label ng-click="sortBy('score')">Final Score</label>
+	</div>
+	<div id="matchTable" class="matchTable">
+
+
+		<div ng-class="{odd: $index % 2 != 0, row : true}"  ng-repeat="shooter in shooters | orderBy:  orderByCol track by $index  " ng-click="shooterProfile()">
+			<label>{{shooter.sadpa_no}}</label><label>{{shooter.name}}</label> <label>{{shooter.division}}</label> <label>{{shooter.class}}</label> <label>{{shooter.pd}} </label><label>{{shooter.score}}</label>
+		</div>
+		
+	</div>
+</div>

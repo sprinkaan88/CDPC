@@ -19,28 +19,35 @@
 				<div class="colHeader column">
 					<b>Target</b>
 				</div>
-				<div class="target column" ng-style="columnStyle"
+				<div class="target column" ng-style="columnStyle" 
 					ng-repeat="target in getNumber(options.totalCol) track by $index"
 					score-column="targets" index="{{$index}}"></div>
 			</div>
 
-			<div class="pointsDown scoring">
-				<div class="colHeader column">
-					<b>Points Down</b>
-				</div>
-				<div class="column" ng-style="columnStyle"
-					ng-repeat="target in getNumber(options.totalCol) track by $index">
-					<input id="target{{$index+1}}" ng-model="targetsinput"
-						ng-init="score.targets" ng-change="scoringChanged($index + 1)"
-						onkeypress='return event.charCode >= 48 && event.charCode <= 57'
-						maxlength="2" type="text"
-						ng-if="$index < options.targets.numberOf || $index > 11" /> <label
-						id="scoreLabel{{$index+1}}" ng-if="$index == 11">{{getScoreLabelValue($index+1)}}</label>
-				</div>
+
+		<div class="pointsDown scoring">
+			<div class="colHeader column">
+				<b>Points Down</b>
 			</div>
+			<div class="column" ng-style="columnStyle"
+				ng-repeat="target in getNumber(options.totalCol) track by $index">
+				<input id="target{{$index+1}}" ng-model="targetsinput"  ng-if="!normalMode && $index == 0"
+					ng-init="score.targets" ng-change="scoringChanged($index + 1)"
+					onkeypress='return event.charCode >= 48 && event.charCode <= 57'
+					maxlength="3" type="text"
+					ng-if="$index < options.targets.numberOf || $index > 11" />
+					
+					<input id="target{{$index+1}}" ng-model="targetsinput"  ng-if="normalMode"
+					ng-init="score.targets" ng-change="scoringChanged($index + 1)"
+					onkeypress='return event.charCode >= 48 && event.charCode <= 57'
+					maxlength="2" type="text"
+					ng-if="$index < options.targets.numberOf || $index > 11" /> <label
+					id="scoreLabel{{$index+1}}" ng-if="$index == 11">{{getScoreLabelValue($index+1)}}</label>
+			</div>
+		</div>
 
 
-			<div class="string scoring">
+		<div class="string scoring">
 				<div class="colHeader column">
 					<b>String</b>
 				</div>
