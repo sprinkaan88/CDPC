@@ -35,7 +35,7 @@ angular.module('cdpc').directive('scoreColumn', function() {
 				break;
 			}
 			case 12: {
-				scope.columnName = "X 0.50 seconds";
+				scope.columnName = "X 1.00 seconds";
 				break;
 			}
 			case 13: {

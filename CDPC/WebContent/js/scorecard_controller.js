@@ -68,7 +68,7 @@ angular.module('cdpc').controller('ScoreCardController', 	function($scope) {
 					}
 
 					$scope.scoring.scoreLabel12 = $scope.scoring.totalPointsDown;
-					$scope.scoring.secondsLabel12 = $scope.scoring.totalPointsDown * 0.5;
+					$scope.scoring.secondsLabel12 = $scope.scoring.totalPointsDown * 1;
 				} else {
 					switch (index) {
 					case 13: {

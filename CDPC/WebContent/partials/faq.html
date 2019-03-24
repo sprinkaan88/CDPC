@@ -1,7 +1,7 @@
 
   
     <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a href="/index.html#!/home">Home</a>
                     </li>
                     <li class="active">FAQ</li>
                 </ol>
@@ -17,17 +17,17 @@
 
         <!-- Content Row -->
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 faqs">
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Can I participate before I join?</a>
+                                <a class="accordion-toggle" data-hide="true" data-parent="#accordion" href=""  ng-click="data.hide1 = !data.hide1;">Can I participate before I join?</a>
                             </h4>
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse">
+                        <div id="collapseOne" class="panel-collapse" ng-class="{'faqHide': !data.hide1}" >
                             <div class="panel-body">
-                                Due to liability issues, unfortunately not. However, you are welcome to come to any of the clubs on shooting days to observe and ask questions.
+                                Yes you can !<br> We allow <i>prospective shooters</i> to participate before they become full members.
                             </div>
                         </div>
                     </div>
@@ -35,24 +35,18 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">How do I join?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide2 = !data.hide2;">How do I join?</a>
                             </h4>
                         </div>
-                        <div id="collapseTwo" class="panel-collapse collapse">
+                        <div id="collapseTwo" class="panel-collapse" ng-class="{'faqHide': !data.hide2}">
                             <div class="panel-body">
-								Membership of both SADPA and a Club of your choice is compulsory.<br>
-									The following forms need to be completed:
+								Membership of IDPA, SADPA and a Club of your choice is compulsory.<br>
+									The following needs to be completed:
 									<ul>
-									 <li>SADPA membership application form</li>
-									 <li>SADPA indemnity form</li>
-									 <li>Club application form</li>
+                                     <li><a href="https://www.idpa.com/membership/" target="_blank">IDPA membership</a></li>
+                                        <li><a href="https://sadpa.co.za/documents/sadpa_new_member.pdf" target="_blank">SADPA membership application form</a>, proof of IDPA membership (<a href="https://www.idpa.com/my-account/#details" target="_blank">bottom of account page</a>) and proof of payment to SADPA, emailed to <a href="mailto:enquiry@sadpa.co.za?subject=New Member Registration">SADPA</a></li>
+                                        <li><a href="/documents/Form_CDPC_Membership.doc">CDPC application form</a> and proof of payment (R350 + R150) emailed to <a href="mailto:admin@cdpc.co.za?subject=New Member Registration">admin@cdpc.co.za</a></li>
 									</ul>
-									Contact your club for their application forms and club information, and the
-									SADPA office (contact details on website) for SADPA application and
-									indemnity forms if you can’t find same on the SADPA website.<br>
-									Please do not expect SADPA and club officials to process last minute
-									applications at short notice in order to attend NSO’s etc. Allow at least a
-									week for new membership to be processed.
                             </div>
                         </div>
                     </div>
@@ -60,20 +54,17 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">How much does it cost?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide3 = !data.hide3;">How much does it cost?</a>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="panel-collapse collapse">
+                        <div id="collapseThree" class="panel-collapse" ng-class="{'faqHide': !data.hide3}">
                             <div class="panel-body">
-                                SADPA Fees are R400 per year (as at Jan 2015).<br>
-								Club fees vary by quite a margin as there are different arrangements in place.<br>
-								Some clubs are privately owned, while others are being rented from third
-								parties.<br> Benefits to members also vary somewhat (at some clubs, members
-								don’t pay for monthly shoots).<br> Fees typically range from R300 to R1,300.
-								Shoot fees vary from R40 to about R100 for normal monthly shoots, while
-								some clubs let their members shoot for free at the home club. <br>Leagues cost
-								R80 (as at Jan 2012), and Nationals and Africa Champs range from R300-
-								R500.<br>
+                                SADPA annual fee is R265(as at Mar 2019).<br>
+								IDPA annual fee is $40.<br>
+                                CDPC annual fee is R350 (R150 once-off registration for new members).<br>
+								Shoot fees vary from R100 to about R150 for normal monthly shoots, while
+								some clubs let their members shoot for free at the home club. <br>
+                                Leagues costs range from R150 upwards, and Nationals and Africa Champs range from R300-R500.<br>
 								Safety (Range) Officers usually shoot for free.
                             </div>
                         </div>
@@ -82,15 +73,15 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">How will SADPA notify me of important news and events?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide4 = !data.hide4;">How will SADPA notify me of important news and events?</a>
                             </h4>
                         </div>
-                        <div id="collapseFour" class="panel-collapse collapse">
+                        <div id="collapseFour" class="panel-collapse" ng-class="{'faqHide': !data.hide4}">
                             <div class="panel-body">
-                                The SADPA Website at www.sadpa.co.za is used extensively to disseminate
+                                The SADPA Website at <a href="http://www.sadpa.co.za" target="_blank">www.sadpa.co.za</a> is used extensively to disseminate
 								information. Shoot and results notifications are distributed via SADPA_Group
-								at YahooGroups.com. Please see your membership letter for instructions to
-								join or visit http://sports.groups.yahoo.com/group/sadpa_group/
+								at YahooGroups.com. To join the mail group, simply send an email to <a href="mailto:sadpa_group-subscribe@yahoogroups.com?subject=Register">sadpa_group-subscribe@yahoogroups.com</a><br>
+                                For CDPC email group, email <a href="mailto:centuriondefensivepistolclub-subscribe@yahoogroups.com?subject=Register">centuriondefensivepistolclub-subscribe@yahoogroups.com</a>.
                             </div>
                         </div>
                     </div>
@@ -98,12 +89,12 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Can I start shooting immediately once I’ve joined?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide5 = !data.hide5;">Can I start shooting immediately once I’ve joined?</a>
                             </h4>
                         </div>
-                        <div id="collapseFive" class="panel-collapse collapse">
+                        <div id="collapseFive" class="panel-collapse" ng-class="{'faqHide': !data.hide5}">
                             <div class="panel-body">
-                                Due to the inherent dangers associated with firearms, all members have to undergo an NSO before they can participate in SADPA events. This is not negotiable.
+                                Due to the inherent dangers associated with firearms, all members have to undergo an NSO (New Shooter Orientation) before they can participate in SADPA events.
                             </div>
                         </div>
                     </div>
@@ -111,10 +102,10 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">What is the NSO about and how often are these held?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide6 = !data.hide6;">What is the NSO about and how often are these held?</a>
                             </h4>
                         </div>
-                        <div id="collapseSix" class="panel-collapse collapse">
+                        <div id="collapseSix" class="panel-collapse" ng-class="{'faqHide': !data.hide6}">
                             <div class="panel-body">
                                 The NSO (New Shooter Orientation) is an induction through which we ensure
 								all members are aware of safety aspects, range rules and commands and the
@@ -129,10 +120,10 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">How do I know when shoots are presented and by whom?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide7 = !data.hide7;">How do I know when shoots are presented and by whom?</a>
                             </h4>
                         </div>
-                        <div id="collapseSeven" class="panel-collapse collapse">
+                        <div id="collapseSeven" class="panel-collapse" ng-class="{'faqHide': !data.hide7}">
                             <div class="panel-body">
                                 Please see the calendar page on the SADPA website. Notifications are also circulated via SADPA_group on YahooGroups, usually 5-15 days preceeding the shoot. 
                             </div>
@@ -142,10 +133,10 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEight">Can I shoot at a club other than the one I belong to?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide8 = !data.hide8;">Can I shoot at a club other than the one I belong to?</a>
                             </h4>
                         </div>
-                        <div id="collapseEight" class="panel-collapse collapse">
+                        <div id="collapseEight" class="panel-collapse" ng-class="{'faqHide': !data.hide8}">
                             <div class="panel-body">
                                 Yes. Once you’re a paid up member and have completed the New Shooter
 								Orientation, all SADPA shoots are open to all members of SADPA.<br>Please note
@@ -159,10 +150,10 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">What type of firearm(s) do I need?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide9 = !data.hide9;">What type of firearm(s) do I need?</a>
                             </h4>
                         </div>
-                        <div id="collapseTen" class="panel-collapse collapse">
+                        <div id="collapseTen" class="panel-collapse" ng-class="{'faqHide': !data.hide9}">
                             <div class="panel-body">
                                 You’ll need a pistol of minimum 9mmP calibre or .38 or larger Revolver.<br>
 								There are limitations with regards to the size and weight of firearms allowed –
@@ -178,12 +169,12 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">What other equipment do I need?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide10 = !data.hide10;">What other equipment do I need?</a>
                             </h4>
                         </div>
-                        <div id="collapseEleven" class="panel-collapse collapse">
+                        <div id="collapseEleven" class="panel-collapse" ng-class="{'faqHide': !data.hide10}">
                             <div class="panel-body">
-							The new shooter page on the website has a comprehensive checklist, but
+                                The <a href="https://sadpa.co.za/#tab_5">new shooter page</a> on the SADPA website has a comprehensive checklist, but
 							before you spend a fortune on paraphernalia you may or may not use, make
 							sure to visit a club to see what members typically use.<br>The non-negotiable
 							items are: Firearm, magazines/speed loaders (at least two, but three is
@@ -197,10 +188,10 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve">How much ammunition do I need?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide11 = !data.hide11;">How much ammunition do I need?</a>
                             </h4>
                         </div>
-                        <div id="collapseTwelve" class="panel-collapse collapse">
+                        <div id="collapseTwelve" class="panel-collapse" ng-class="{'faqHide': !data.hide11}">
                             <div class="panel-body">
 							It depends from shoot to shoot. The NSO will require about 120-150 rounds,
 							monthly club shoots anywhere between 50 and 100 rounds, leagues from 80-
@@ -212,10 +203,10 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen">Do SADPA clubs sell firearms and ammunition?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide12 = !data.hide12;">Do SADPA clubs sell firearms and ammunition?</a>
                             </h4>
                         </div>
-                        <div id="collapseThirteen" class="panel-collapse collapse">
+                        <div id="collapseThirteen" class="panel-collapse" ng-class="{'faqHide': !data.hide12}">
                             <div class="panel-body">
 							No. But SADPA’s friendly sponsors do. Please have a look at our sponsors
 							page on the website, or ask the club’s contact person if he can recommend
@@ -227,11 +218,11 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse14">Can I use club facilities on my own for practice?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide13 = !data.hide13;">Can I use club facilities on my own for practice?</a>
                             </h4>
                         </div>
-                        <div id="collapse14" class="panel-collapse collapse">
-                            <div class="panel-body">It varies from club to club. Contact your club administrator for more detail.
+                        <div id="collapse14" class="panel-collapse" ng-class="{'faqHide': !data.hide13}">
+                            <div class="panel-body">CDPC rents the SANDF range on club days; individual shooter access is not permitted on days other than club shoot days.<br>
                             </div>
                         </div>
                     </div>
@@ -239,10 +230,10 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse15">Will SADPA do my motivation for firearms license applications for me?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="" ng-click="data.hide14 = !data.hide14;">Will SADPA do my motivation for firearms license applications for me?</a>
                             </h4>
                         </div>
-                        <div id="collapse15" class="panel-collapse collapse">
+                        <div id="collapse15" class="panel-collapse" ng-class="{'faqHide': !data.hide14}">
                             <div class="panel-body">
 							No, SADPA is not a legal firm. SADPA will however provide you with a
 							membership letter stating that you’re a member of the organisation and the

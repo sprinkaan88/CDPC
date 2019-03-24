@@ -1,0 +1,19 @@
+<div class="col-md-6 cdpcCal" >
+    <h2 class="page-header">Calendar for {{year}}</h2>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Month</th>
+            <th>Date</th>
+            <th>Match Type</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="cal in calEntries" ng-class="{isDone : cal.isDone}">
+            <td>{{cal.month}}</td>
+            <td>{{cal.date}}</td>
+            <td>{{cal.description}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
