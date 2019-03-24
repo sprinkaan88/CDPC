@@ -1,0 +1,12 @@
+<div ng-click="go(goto);"  class="col-md-4 cdContentLink">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4><i class="fa fa-fw {{headingIcon}}"></i>{{heading}}</h4>
+                    </div>
+                    <div class="panel-body">
+                    	<img ng-show="imgSrc" src="{{imgSrc}}" alt="{{heading}}">
+                        <p>{{content | cut:true:100:' ...'}}</p>
+                        <span ng-show="btnText" class="btn btn-default">{{btnText}}</span>
+                    </div>
+                </div>
+            </div>

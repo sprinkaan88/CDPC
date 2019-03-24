@@ -13,5 +13,11 @@ angular.module('cdpc').controller('ParentController', function($scope, $location
 			$scope.headerOff = false;
 		}
 	});
-  
+	
+$scope.go = function ( path ) {
+	  $location.path( path );
+	};
+
+
+	
 });

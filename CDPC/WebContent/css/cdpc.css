@@ -15,7 +15,7 @@ body {
 }
 
 a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
-       cursor: pointer;
+	cursor: pointer;
 }
 
 .img-portfolio {
@@ -82,6 +82,25 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 	width: inherit;
 }
 
+.cdContentLink {
+	cursor: pointer;
+}
+
+.cdContentLink img {
+	margin-bottom: 5px;
+	width: 330px;
+}
+.faqs a {
+	text-decoration: none !important;	
+}
+
+.faqs .faqHide {
+	display : none;
+}
+
+.cdpcCal .isDone{
+	opacity: 0.3;
+}
 /* Footer Styles */
 footer {
 	margin: 50px 0;
@@ -95,6 +114,10 @@ footer {
 }
 
 @media ( max-width :767px) {
+	.cdContentLink img {
+		margin-bottom: 5px;
+		width: 300px;
+	}
 	.img-portfolio {
 		margin-bottom: 15px;
 	}
