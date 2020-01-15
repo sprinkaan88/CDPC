@@ -19,18 +19,18 @@ calendarElemObj.link = function(scope, element, attrs) {
 		this.isDone = today > this.fullDate;
 	};
 
-	var jan = new CalEntry('2019-01-12','Club Shoot (Handgun) and Structured handgun exercise: M v Biljon');
-    var feb = new CalEntry('2019-02-09','NSO, Classifier & Club Shoot (Handgun)');
-    var mar = new CalEntry('2019-03-12','Club Shoot (Handgun/Rifle) and Structured handgun exercise: M v Biljon');
-    var apr = new CalEntry('2019-04-13','SADPA League (Handgun)');
-    var may = new CalEntry('2019-05-11','Club Shoot (Handgun) and Prospective new shooter (Huntex recruits)');
-    var jun = new CalEntry('2019-06-08','Night Shoot (Handgun)');
-    var jul = new CalEntry('2019-07-13','SADPA League (Handgun) and NSO');
-    var aug = new CalEntry('2019-08-10','Club Shoot (Handgun)');
-    var sep = new CalEntry('2019-09-14','Club Shoot (Handgun/Rifle)');
-    var oct = new CalEntry('2019-10-12','DMG league');
-    var nov = new CalEntry('2019-11-09','Club Shoot (Handgun/Shotgun )');
-    var dec = new CalEntry('2019-12-14','Club Shoot (Year End Fun Shoot)');
+	var jan = new CalEntry('2020-01-11','Club Shoot (Handgun) and Prospective shooters: M v Biljon');
+    var feb = new CalEntry('2020-02-08','NSO, Multi Division Classifier for Handgun');
+    var mar = new CalEntry('2020-03-14','Club Shoot (Handgun/Rifle)');
+    var apr = new CalEntry('2020-04-11','Club Shoot (DMG)');
+    var may = new CalEntry('2020-05-09','Club Shoot (Handgun) and Prospective shooters');
+    var jun = new CalEntry('2020-06-13','Club Shoot (Day / Night Handgun)');
+    var jul = new CalEntry('2020-07-11','SADPA League (Handgun)');
+    var aug = new CalEntry('2020-08-08','Club Shoot (Handgun / Rifle)');
+    var sep = new CalEntry('2020-09-12','Club shoot (Handgun)');
+    var oct = new CalEntry('2020-10-10','DMG league');
+    var nov = new CalEntry('2020-11-14','Club Shoot (Handgun / Shotgun )');
+    var dec = new CalEntry('2020-12-12','Club Shoot (Year End Fun Shoot)');
 
 
 	scope.calEntries = [jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec];
