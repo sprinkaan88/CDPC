@@ -2,80 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab6763f6-7577-4953-a368-09db0f9b93c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/bester.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/documents/Form_CDPC_Membership.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/js/directives/calendarElem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/partials/directivePartials/calendarElem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/partials/members.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/partials/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/partials/results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.buildpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/.jsdtscope" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.vjet.eclipse.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.validation.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.tern-project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/blog-home-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/blog-home-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/blog-home-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/blog-home-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/blog-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/blog-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/css/cdpc.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/css/cdpc.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/less/bordered-pulled.less" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/less/core.less" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/less/core.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/less/font-awesome.less" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/less/icons.less" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/less/icons.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/less/path.less" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/less/path.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/less/spinning.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/less/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/scss/_core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/scss/_core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/scss/_path.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/scss/_path.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/scss/_spinning.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/font-awesome/scss/font-awesome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/full-width.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/full-width.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/js/directives/scoreColumn.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/js/directives/scoreColumn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/js/parent_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/js/parent_controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/js/scorecard_controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/js/scorecard_controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/documents/CDPC_Renewal_2019.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/documents/Form_CDPC_Membership.doc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WebContent/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/partials/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/partials/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/partials/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/partials/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/partials/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/partials/faq.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/partials/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/partials/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/partials/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/partials/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/partials/stageCard.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/partials/stageCard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/portfolio-1-col.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/portfolio-1-col.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/portfolio-2-col.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/portfolio-2-col.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/portfolio-3-col.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/portfolio-3-col.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/portfolio-4-col.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/portfolio-4-col.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/portfolio-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/portfolio-item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/pricing.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/pricing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebContent/sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/sidebar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/za/co/cdpc/rest/HelloResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/partials/members.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/partials/members.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/WebContent/WEB-INF/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,82 +14,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/partials/results.html">
+        <entry file="file://$PROJECT_DIR$/WebContent/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="104" column="80" lean-forward="true" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/portfolio-4-col.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="257" lean-forward="true" selection-start-line="119" selection-start-column="3" selection-end-line="257" />
+            <state relative-caret-position="757">
+              <caret line="87" column="114" selection-start-line="87" selection-start-column="114" selection-end-line="87" selection-end-column="114" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5574#5580#0" expanded="true" />
+                <element signature="e#5580#5586#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/partials/gallery.html">
+        <entry file="file://$PROJECT_DIR$/WebContent/js/directives/calendarElem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
-              <folding>
-                <element signature="n#div#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/partials/register.html">
+        <entry file="file://$PROJECT_DIR$/WebContent/partials/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="272">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/partials/members.html">
+        <entry file="file://$PROJECT_DIR$/WebContent/partials/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="191" lean-forward="true" selection-start-line="24" selection-start-column="191" selection-end-line="24" selection-end-column="191" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/partials/faq.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            <state relative-caret-position="323">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -167,17 +64,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/partials/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="73" lean-forward="true" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+            <state relative-caret-position="765">
+              <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/js/directives/scoreColumn.js">
+        <entry file="file://$PROJECT_DIR$/WebContent/partials/directivePartials/calendarElem.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+            <state relative-caret-position="17">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="43" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/partials/members.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#b#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/partials/results.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/js/jqBootstrapValidation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,23 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>calendar f</find>
-      <find>calendar</find>
-      <find>home</find>
-      <find>&lt;div class=&quot;container mainContent&quot; id=&quot;mainContent&quot;&gt;</find>
-      <find>&lt;a href=&quot;index.html&quot;&gt;Home&lt;/a&gt;</find>
-      <find>&lt;img ng-show=&quot;headerOff&quot; alt=&quot;CDPC Logo&quot; src=&quot;img/cdpcLogoLarge.png&quot; class=&quot;&quot;&gt;</find>
-      <find>welcome to</find>
-      <find>go</find>
-      <find>contentLinkObj</find>
-      <find>contentLink</find>
-      <find>'',</find>
-      <find>ng-repeat</find>
-      <find>contentlink</find>
-      <find>go('faq');</find>
-      <find>ng-class</find>
-      <find>cdpcCal</find>
-      <find>copyright</find>
       <find>send</find>
       <find>start bootstra</find>
       <find>full wid</find>
@@ -210,19 +131,44 @@
       <find>stageScore</find>
       <find>Total Points Down</find>
       <find>about</find>
-      <find>main.html</find>
       <find>class=&quot;list-group-item&quot;</find>
       <find>idpa</find>
+      <find>renewal</find>
+      <find>main.html</find>
+      <find>member</find>
+      <find>members</find>
+      <find>renew</find>
+      <find>!members</find>
+      <find>Over the past few months yo</find>
+      <find>Calendar</find>
+      <find>2019</find>
+      <find>cdpc 2019</find>
+      <find>danie</find>
+      <find>index.html#</find>
+      <find>/index.html#!/home</find>
+      <find>/#!/home</find>
+      <find>fa-envelop</find>
+      <find>facebook</find>
+      <find>/CDPC_Renewal_2019.doc</find>
+      <find>me</find>
+      <find>Members</find>
+      <find>class=&quot;dropdown&quot;</find>
+      <find>class=&quot;nav navbar-nav navbar-right&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;a href=&quot;/main.html#!/home&quot;&gt;Home&lt;/a&gt;</replace>
       <replace>calendarElemObj</replace>
       <replace>index.html</replace>
+      <replace>2020</replace>
+      <replace>/#!/home</replace>
     </replaceStrings>
     <dirStrings>
       <dir>F:\Dev\Git\CDPC\CDPC\WebContent\js</dir>
       <dir>F:\Dev\Git\CDPC\CDPC\WebContent</dir>
       <dir>F:\Dev\Git\CDPC\CDPC\WebContent\partials</dir>
+      <dir>G:\Dev\Git\CDPC\CDPC\WebContent\js</dir>
+      <dir>G:\Dev\Git\CDPC\CDPC\WebContent\font-awesome\css</dir>
+      <dir>G:\Dev\Git\CDPC\CDPC\WebContent\partials</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -235,23 +181,25 @@
         <option value="$PROJECT_DIR$/WebContent/partials/directivePartials/contentLink.html" />
         <option value="$PROJECT_DIR$/WebContent/js/parent_controller.js" />
         <option value="$PROJECT_DIR$/WebContent/js/directives/contentLink.js" />
-        <option value="$PROJECT_DIR$/WebContent/js/directives/calendarElem.js" />
         <option value="$PROJECT_DIR$/WebContent/partials/directivePartials/calendarElem.html" />
         <option value="$PROJECT_DIR$/WebContent/css/cdpc.css" />
-        <option value="$PROJECT_DIR$/WebContent/main.html" />
         <option value="$PROJECT_DIR$/WebContent/full-width.html" />
         <option value="$PROJECT_DIR$/WebContent/partials/register.html" />
-        <option value="$PROJECT_DIR$/WebContent/partials/home.html" />
         <option value="$PROJECT_DIR$/WebContent/partials/stageCard.html" />
         <option value="$PROJECT_DIR$/WebContent/js/scorecard_controller.js" />
         <option value="$PROJECT_DIR$/WebContent/js/directives/scoreColumn.js" />
-        <option value="$PROJECT_DIR$/WebContent/partials/contact.html" />
         <option value="$PROJECT_DIR$/WebContent/js/main.js" />
-        <option value="$PROJECT_DIR$/WebContent/partials/members.html" />
-        <option value="$PROJECT_DIR$/WebContent/partials/faq.html" />
         <option value="$PROJECT_DIR$/WebContent/partials/gallery.html" />
         <option value="$PROJECT_DIR$/WebContent/index.html" />
         <option value="$PROJECT_DIR$/WebContent/partials/results.html" />
+        <option value="$PROJECT_DIR$/WebContent/js/directives/calendarElem.js" />
+        <option value="$PROJECT_DIR$/WebContent/not_used_index.html" />
+        <option value="$PROJECT_DIR$/WebContent/partials/faq.html" />
+        <option value="$PROJECT_DIR$/WebContent/partials/about.html" />
+        <option value="$PROJECT_DIR$/WebContent/partials/contact.html" />
+        <option value="$PROJECT_DIR$/WebContent/partials/home.html" />
+        <option value="$PROJECT_DIR$/WebContent/partials/members.html" />
+        <option value="$PROJECT_DIR$/WebContent/main.html" />
       </list>
     </option>
   </component>
@@ -271,7 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,20 +241,41 @@
               <item name="CDPC" type="b2602c69:ProjectViewProjectNode" />
               <item name="CDPC" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
+              <item name="documents" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDPC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDPC" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CDPC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CDPC" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553435137869" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.project" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553673463020" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -342,18 +310,23 @@
       <option name="presentableId" value="Default" />
       <updated>1549994194748</updated>
       <workItem from="1549994202843" duration="201000" />
-      <workItem from="1553326357186" duration="14998000" />
+      <workItem from="1553326357186" duration="15595000" />
+      <workItem from="1553673092924" duration="367000" />
+      <workItem from="1559151048532" duration="1926000" />
+      <workItem from="1567522436301" duration="1601000" />
+      <workItem from="1578216627212" duration="3756000" />
+      <workItem from="1579102004167" duration="944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15199000" />
+    <option name="totallyTimeSpent" value="24390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -424,31 +397,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/js/nav_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/js/match_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/partials/directivePartials/contentLink.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/js/parent_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -459,31 +411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/js/directives/calendarElem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/partials/directivePartials/calendarElem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/css/cdpc.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="103" column="19" lean-forward="true" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="139" column="19" lean-forward="true" selection-end-line="176" />
         </state>
       </provider>
     </entry>
@@ -507,36 +438,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/faq.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="50" lean-forward="true" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/pricing.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/partials/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/js/scorecard_controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="70" column="86" selection-start-line="70" selection-start-column="86" selection-end-line="70" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/js/directives/scoreColumn.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/partials/stageCard.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -545,10 +448,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/partials/contact.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/portfolio-4-col.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="73" lean-forward="true" selection-start-line="33" selection-start-column="73" selection-end-line="33" selection-end-column="73" />
+        <state relative-caret-position="2074">
+          <caret line="257" selection-start-line="119" selection-start-column="3" selection-end-line="257" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/partials/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="138" selection-start-line="138" selection-end-line="138" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -559,58 +475,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="35" lean-forward="true" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/partials/members.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="191" lean-forward="true" selection-start-line="24" selection-start-column="191" selection-end-line="24" selection-end-column="191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/portfolio-4-col.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="257" lean-forward="true" selection-start-line="119" selection-start-column="3" selection-end-line="257" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/partials/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="104" column="80" lean-forward="true" selection-start-line="104" selection-start-column="80" selection-end-line="104" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/partials/faq.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="21" />
+          <caret line="6" column="21" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/directives/scoreColumn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/bin/contact_me.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/contact_me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#76#83#1" expanded="true" />
+            <element signature="e#76#83#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/parent_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/not_used_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="94" column="44" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/scorecard_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="86" selection-start-line="70" selection-start-column="86" selection-end-line="70" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/nav_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/match_controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/directives/calendarElem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/partials/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/partials/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/partials/directivePartials/calendarElem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/partials/results.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="459">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/js/jqBootstrapValidation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/partials/members.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#b#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/partials/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="87" column="114" selection-start-line="87" selection-start-column="114" selection-end-line="87" selection-end-column="114" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5574#5580#0" expanded="true" />
+            <element signature="e#5580#5586#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
